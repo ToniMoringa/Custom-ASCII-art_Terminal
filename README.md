@@ -72,5 +72,10 @@ Delete the lines you added.
 
 Save and exit.
 
-![Terminal Preview](assets/HigurumaTerminal.png)<img src="terminal-preview.png" alt="Terminal Preview" width="500">
-![Terminal Preview](assets/GojoVscodewithBeSunflowerTheme.png)
+### **Terminal Previews**
+
+#### **Higuruma Terminal**
+![Higuruma Preview](assets/HigurumaTerminal.png)
+
+#### **Gojo VS Code Theme**
+![Gojo Preview](assets/GojoVscodewithBeSunflowerTheme.png)s
