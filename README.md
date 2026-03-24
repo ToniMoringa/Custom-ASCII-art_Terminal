@@ -1,4 +1,4 @@
-Is this safe?
+### **Is this safe?**
 Yes. These steps do not install any software, change system registries, or affect your computer's performance. We are simply editing a "profile" script—a text file that the terminal reads to know how you want it to look. You can undo these changes at any time by deleting the lines we add.
 
 Setup Instructions
@@ -72,3 +72,5 @@ Delete the lines you added.
 
 Save and exit.
 
+![Terminal Preview](assets/HigurumaTerminal.png)<img src="terminal-preview.png" alt="Terminal Preview" width="500">
+![Terminal Preview](assets/GojoVscodewithBeSunflowerTheme.png)
