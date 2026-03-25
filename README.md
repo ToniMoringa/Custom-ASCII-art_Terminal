@@ -3,32 +3,31 @@ Yes. These steps do not install any software, change system registries, or affec
 
 #### **Setup Instructions**
 
+#### **1. Windows PowerShell**
 Follow these steps to customize your default Windows terminal.
 
-Open PowerShell.
-
-Check for a profile:
+ **Open PowerShell.**
+ **Check for a profile:***
 Type test-path $profile. If it says False, create one by typing:
 New-Item -path $profile -type file -force
 
-Open the editor: Type notepad $profile.
+**Open the editor:** Type notepad $profile.
 
-Add your art: Copy your ASCII art and greeting message into the Notepad window.
+**Add your art:** Copy your ASCII art and greeting message into the Notepad window.
 
-Note: Wrap your text in a "Here-String" so PowerShell handles it correctly:
-
-PowerShell
+> **Note:** Wrap your text in a "Here-String" so PowerShell handles it correctly:
+```PowerShell
 Write-Host @"
 [Paste your ASCII art here]
 Welcome back, YourName!(You can change this statement as you want you can add emojis too!🌸)
 "@ -ForegroundColor Cyan
-Save and Exit: Save the Notepad file and restart PowerShell.
 
-2. WSL (Ubuntu)
+**Save and Exit:** Save the Notepad file and restart PowerShell.
+
+#### ** WSL (Ubuntu)**
 3. This works for your Linux terminal within Windows.
 4. Open Ubuntu/WSL.
-
-Open the editor: We will use Nano, a simple terminal-based editor. Type:
+**Open the editor:** We will use Nano, a simple terminal-based editor. Type:
 nano ~/.bashrc
 
 Navigate: Scroll to the very bottom of the file using your arrow keys.
