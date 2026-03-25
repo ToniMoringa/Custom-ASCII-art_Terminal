@@ -21,6 +21,7 @@ Write-Host @"
 [Paste your ASCII art here]
 Welcome back, YourName!(You can change this statement as you want you can add emojis too!🌸)
 "@ -ForegroundColor Cyan
+```
 
 **Save and Exit:** Save the Notepad file and restart PowerShell.
 
@@ -28,17 +29,17 @@ Welcome back, YourName!(You can change this statement as you want you can add em
 3. This works for your Linux terminal within Windows.
 4. Open Ubuntu/WSL.
 **Open the editor:** We will use Nano, a simple terminal-based editor. Type:
+```
 nano ~/.bashrc
-
 Navigate: Scroll to the very bottom of the file using your arrow keys.
-
 Add your art: Type echo " then paste your art, and close it with another ".
 Bash
 echo "
 [Paste your ASCII art here]
 Domain Expansion: Welcome YourName!. (You can change this statement as you want you can add emojis too!🌸)
 "
-Save and Exit: * Press Ctrl + O (to Write Out/Save).
+```
+**Save and Exit:** * Press Ctrl + O (to Write Out/Save).
 
 Press Enter to confirm.
 
@@ -46,29 +47,30 @@ Press Ctrl + X to exit the editor.
 
 #### **Tips for Custom ASCII Art**
 
-Scaling
+**Scaling**
 ASCII art can "break" or wrap around if it is wider than your terminal window. (Replace with any custom one you make or find online )
 Use Notepad first: Paste your art into Notepad and resize the window to see where the lines break.
 Shrink it: If the art looks messy, try a smaller version or reduce the font size in your Terminal Settings.
 
-Edit Menu (Nano)
+**Edit Menu (Nano)**
 In Ubuntu Terminal using Nano, At the bottom of the screen is a menu as so;
+```
 Command                     Action
 ^G Get Help               View instructions
 ^O Write Out              Save your changes
 ^W Where Is               Search for text
 ^X Exit                   Close the editor
-
+```
 
 The ^ symbol represents the Ctrl key on your keyboard.
 
-Going back to Default?
+#### **Going back to Default?**
 
 To return terminal as it was:
-Re-open the files (notepad $profile for Windows or nano ~/.bashrc for Ubuntu).
-
+Re-open the files 
+```(notepad $profile for Windows or nano ~/.bashrc for Ubuntu).
+```
 Delete the lines you added.
-
 Save and exit.
 
 ### **Terminal Previews**
