@@ -1,7 +1,7 @@
 ### **Is this safe?**
 Yes. These steps do not install any software, change system registries, or affect your computer's performance. We are simply editing a "profile" script—a text file that the terminal reads to know how you want it to look. You can undo these changes at any time by deleting the lines we add.
 
-Setup Instructions
+#### **Setup Instructions**
 
 Follow these steps to customize your default Windows terminal.
 
@@ -45,7 +45,7 @@ Press Enter to confirm.
 
 Press Ctrl + X to exit the editor.
 
-Tips for Custom ASCII Art
+#### **Tips for Custom ASCII Art**
 
 Scaling
 ASCII art can "break" or wrap around if it is wider than your terminal window. (Replace with any custom one you make or find online )
@@ -75,7 +75,7 @@ Save and exit.
 ### **Terminal Previews**
 
 #### **Higuruma Terminal**
-![Higuruma Preview](assets/HigurumaTerminal.png)
+![Higuruma Preview](Assets/HigurumaTerminal.png)
 
 #### **Gojo VS Code Theme**
-![Gojo Preview](assets/GojoVscodewithBeSunflowerTheme.png)s
+![Gojo Preview](Assets/GojoVscodewithBeSunflowerTheme.png)
